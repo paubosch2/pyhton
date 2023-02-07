@@ -11,14 +11,41 @@ durada=len(palabra)
 while durada>0:
     print("_ ", end=" ")
     durada=durada-1
+l=input("dime letra ")
 
-while True:
-    l=input("dime letra ")
-    for letra in palabra:
-        if letra == l:
-            print(letra, end="")
-            resolver.append(letra)
+for letra in palabra:
+    if letra in resolver:
+        print(letra,ens="")
     else:
         print("_ ",end="")
-        fallos.append(letra)
-    print(fallos)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+'''
+l=input("dime letra ")
+print(resolver)
+print(fallos)
+if letra==l:
+    resolver,append(letra)
+else:
+    fallos.append(letra)
+
+for letra in palabra:
+    if letra in resolver:
+        print(resolver, end="")
+        
+else:
+    print("_ ",end="")
+
+print("correctas ", )

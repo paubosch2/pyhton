@@ -29,4 +29,3 @@ mibaraja.mezclar()
 print(mibaraja.cartas)
 '''
 numero_cartas = mibaraja.contar()
-print(numero_cartas)

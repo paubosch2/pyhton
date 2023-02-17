@@ -22,10 +22,3 @@ class Baraja:
         for carta in self.cartas:
             print(carta)
 
-mibaraja=Baraja()
-'''
-print(mibaraja.cartas)
-mibaraja.mezclar()
-print(mibaraja.cartas)
-'''
-numero_cartas = mibaraja.contar()
